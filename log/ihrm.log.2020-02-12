@@ -1,0 +1,78 @@
+2020-02-12 17:29:29,718 INFO [get_log.py(<module>:40)] - 测试信息级别日志
+2020-02-12 17:29:29,718 ERROR [get_log.py(<module>:41)] - 测试错误级别
+2020-02-12 18:08:43,889 INFO [api_login.py(api_login:20)] - 登录结果：{'mobile': '13800000002', 'password': '123456'}
+2020-02-12 18:08:44,059 INFO [test01_login.py(test_login:25)] - 登录结果是：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '4c3aed8a-f355-4c25-81bc-7207526e2f8b'}
+2020-02-12 18:08:44,059 INFO [api_employee.py(api_post_employee:22)] - 新增员工数据：{'username': 'toc-gz-107', 'mobile': '17010000017', 'workNumber': '1300007'} 新增员工请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 4c3aed8a-f355-4c25-81bc-7207526e2f8b'}
+2020-02-12 18:08:44,238 INFO [test02_employee.py(test01_post:23)] - 新增员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227534993009758208'}}
+2020-02-12 18:08:44,238 INFO [test02_employee.py(test01_post:27)] - 员工user_id值为：1227534993009758208
+2020-02-12 18:08:44,238 INFO [api_employee.py(api_put_employee:29)] - 修改后的数据：{'username': 'ton-gz-105'}
+2020-02-12 18:08:44,408 INFO [test02_employee.py(test02_put:34)] - 更新员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227534993009758208'}}
+2020-02-12 18:08:44,548 INFO [test02_employee.py(test03_get:42)] - 查询员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227534993009758208', 'mobile': '17010000017', 'username': 'ton-gz-105', 'password': 'dab6caaca7d117b15e25759b92cbbf59', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': None, 'timeOfEntry': None, 'formOfEmployment': None, 'workNumber': '1300007', 'formOfManagement': None, 'workingCity': None, 'correctionTime': None, 'inServiceStatus': None, 'departmentName': None, 'roleIds': [], 'staffPhoto': None}}
+2020-02-12 18:08:44,708 INFO [test02_employee.py(test04_delete:50)] - 删除员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-02-12 18:25:45,301 INFO [api_login.py(api_login:20)] - 登录结果：{'mobile': '13800000002', 'password': '123456'}
+2020-02-12 18:25:45,486 INFO [test01_login.py(test_login:25)] - 登录结果是：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '59f75784-1f18-4217-b741-e6395232a852'}
+2020-02-12 18:25:45,486 INFO [api_employee.py(api_post_employee:21)] - 新增员工数据：{'username': 'toc-gz-107', 'mobile': '17010000017', 'workNumber': '1300007'} 新增员工请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 59f75784-1f18-4217-b741-e6395232a852'}
+2020-02-12 18:25:45,676 INFO [test02_employee.py(test01_post:23)] - 新增员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227539277260607488'}}
+2020-02-12 18:25:45,686 INFO [test02_employee.py(test01_post:27)] - 员工user_id值为：1227539277260607488
+2020-02-12 18:25:45,686 INFO [api_employee.py(api_put_employee:28)] - 修改后的数据：{'username': 'ton-gz-105'}
+2020-02-12 18:25:45,846 INFO [test02_employee.py(test02_put:34)] - 更新员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227539277260607488'}}
+2020-02-12 18:25:46,023 INFO [test02_employee.py(test03_get:42)] - 查询员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227539277260607488', 'mobile': '17010000017', 'username': 'ton-gz-105', 'password': 'dab6caaca7d117b15e25759b92cbbf59', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': None, 'timeOfEntry': None, 'formOfEmployment': None, 'workNumber': '1300007', 'formOfManagement': None, 'workingCity': None, 'correctionTime': None, 'inServiceStatus': None, 'departmentName': None, 'roleIds': [], 'staffPhoto': None}}
+2020-02-12 18:25:46,186 INFO [test02_employee.py(test04_delete:50)] - 删除员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-02-12 18:29:46,418 INFO [api_login.py(api_login:20)] - 登录结果：{'mobile': '13800000002', 'password': '123456'}
+2020-02-12 18:29:46,616 INFO [test01_login.py(test_login:25)] - 登录结果是：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '0ed4df8f-ebdd-44cb-b59a-08b1906361f5'}
+2020-02-12 18:29:46,616 INFO [api_employee.py(api_post_employee:21)] - 新增员工数据：{'username': 'toc-gz-107', 'mobile': '17010000017', 'workNumber': '1300007'} 新增员工请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 0ed4df8f-ebdd-44cb-b59a-08b1906361f5'}
+2020-02-12 18:29:46,976 INFO [test02_employee.py(test01_post:23)] - 新增员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227540289329385472'}}
+2020-02-12 18:29:46,976 INFO [test02_employee.py(test01_post:27)] - 员工user_id值为：1227540289329385472
+2020-02-12 18:29:46,977 INFO [api_employee.py(api_put_employee:28)] - 修改后的数据：{'username': 'ton-gz-105'}
+2020-02-12 18:29:47,166 INFO [test02_employee.py(test02_put:34)] - 更新员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227540289329385472'}}
+2020-02-12 18:29:47,314 INFO [test02_employee.py(test03_get:42)] - 查询员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227540289329385472', 'mobile': '17010000017', 'username': 'ton-gz-105', 'password': 'dab6caaca7d117b15e25759b92cbbf59', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': None, 'timeOfEntry': None, 'formOfEmployment': None, 'workNumber': '1300007', 'formOfManagement': None, 'workingCity': None, 'correctionTime': None, 'inServiceStatus': None, 'departmentName': None, 'roleIds': [], 'staffPhoto': None}}
+2020-02-12 18:29:47,462 INFO [test02_employee.py(test04_delete:50)] - 删除员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-02-12 18:30:24,745 INFO [api_login.py(api_login:20)] - 登录结果：{'mobile': '13800000002', 'password': '123456'}
+2020-02-12 18:30:25,115 INFO [test01_login.py(test_login:25)] - 登录结果是：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'b6cf9c16-2a78-42e1-a45e-347e7e947bc0'}
+2020-02-12 18:30:25,115 INFO [api_employee.py(api_post_employee:21)] - 新增员工数据：{'username': 'toc-gz-107', 'mobile': '17010000017', 'workNumber': '1300007'} 新增员工请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer b6cf9c16-2a78-42e1-a45e-347e7e947bc0'}
+2020-02-12 18:30:25,315 INFO [test02_employee.py(test01_post:23)] - 新增员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227540450159972352'}}
+2020-02-12 18:30:25,315 INFO [test02_employee.py(test01_post:27)] - 员工user_id值为：1227540450159972352
+2020-02-12 18:30:25,315 INFO [api_employee.py(api_put_employee:28)] - 修改后的数据：{'username': 'ton-gz-105'}
+2020-02-12 18:30:25,475 INFO [test02_employee.py(test02_put:34)] - 更新员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227540450159972352'}}
+2020-02-12 18:30:25,655 INFO [test02_employee.py(test03_get:42)] - 查询员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227540450159972352', 'mobile': '17010000017', 'username': 'ton-gz-105', 'password': 'dab6caaca7d117b15e25759b92cbbf59', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': None, 'timeOfEntry': None, 'formOfEmployment': None, 'workNumber': '1300007', 'formOfManagement': None, 'workingCity': None, 'correctionTime': None, 'inServiceStatus': None, 'departmentName': None, 'roleIds': [], 'staffPhoto': None}}
+2020-02-12 18:30:25,815 INFO [test02_employee.py(test04_delete:50)] - 删除员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-02-12 18:35:19,564 INFO [api_login.py(__init__:15)] - 正在初始化登录url：
+2020-02-12 18:35:19,564 INFO [api_login.py(api_login:21)] - 正在初始化数据：{'mobile': '13800000002', 'password': '123456'} 请求头信息：{'Content-Type': 'application/json'}
+2020-02-12 18:35:19,704 INFO [test01_login.py(test_login:25)] - 登录结果是：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'db010e2c-2bfc-46ec-8664-4b54e21f64dd'}
+2020-02-12 18:35:19,704 INFO [api_employee.py(api_post_employee:21)] - 新增员工数据：{'username': 'toc-gz-107', 'mobile': '17010000017', 'workNumber': '1300007'} 新增员工请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer db010e2c-2bfc-46ec-8664-4b54e21f64dd'}
+2020-02-12 18:35:19,854 INFO [test02_employee.py(test01_post:23)] - 新增员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227541685533495296'}}
+2020-02-12 18:35:19,854 INFO [test02_employee.py(test01_post:27)] - 员工user_id值为：1227541685533495296
+2020-02-12 18:35:19,854 INFO [api_employee.py(api_put_employee:28)] - 修改后的数据：{'username': 'ton-gz-105'}
+2020-02-12 18:35:19,995 INFO [test02_employee.py(test02_put:34)] - 更新员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227541685533495296'}}
+2020-02-12 18:35:20,124 INFO [test02_employee.py(test03_get:42)] - 查询员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227541685533495296', 'mobile': '17010000017', 'username': 'ton-gz-105', 'password': 'dab6caaca7d117b15e25759b92cbbf59', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': None, 'timeOfEntry': None, 'formOfEmployment': None, 'workNumber': '1300007', 'formOfManagement': None, 'workingCity': None, 'correctionTime': None, 'inServiceStatus': None, 'departmentName': None, 'roleIds': [], 'staffPhoto': None}}
+2020-02-12 18:35:20,264 INFO [test02_employee.py(test04_delete:50)] - 删除员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-02-12 19:31:28,428 INFO [api_login.py(__init__:15)] - 正在初始化登录url：
+2020-02-12 19:31:28,428 INFO [api_login.py(api_login:21)] - 正在初始化数据：{'mobile': '13800000002', 'password': '123456'} 请求头信息：{'Content-Type': 'application/json'}
+2020-02-12 19:31:30,268 INFO [test01_login.py(test_login:25)] - 登录结果是：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '1dd0b078-7fe0-4b00-9326-71aff8a31f79'}
+2020-02-12 19:32:22,508 INFO [api_login.py(__init__:15)] - 正在初始化登录url：
+2020-02-12 19:32:22,508 INFO [api_login.py(api_login:21)] - 正在初始化数据：{'mobile': '13800000002', 'password': '123456'} 请求头信息：{'Content-Type': 'application/json'}
+2020-02-12 19:32:24,186 INFO [test01_login.py(test_login:25)] - 登录结果是：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '5601ee08-fcba-4687-b5aa-4daf65745a7d'}
+2020-02-12 19:37:57,052 INFO [api_employee.py(api_post_employee:21)] - 新增员工数据：{'username': 'toc-gz-108', 'mobile': '17010000018', 'workNumber': '1300008'} 新增员工请求信息头：{'Content-Type': 'application/json'}
+2020-02-12 19:38:18,826 INFO [api_employee.py(api_put_employee:28)] - 修改后的数据：{'username': 'ton-gz-105'}
+2020-02-12 19:38:23,927 INFO [api_login.py(__init__:15)] - 正在初始化登录url：
+2020-02-12 19:38:23,927 INFO [api_login.py(api_login:21)] - 正在初始化数据：{'mobile': '13800000002', 'password': '123456'} 请求头信息：{'Content-Type': 'application/json'}
+2020-02-12 19:38:24,077 INFO [test01_login.py(test_login:25)] - 登录结果是：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'fedf001b-4238-44b1-afb4-56421ad0313b'}
+2020-02-12 19:38:24,077 INFO [api_employee.py(api_post_employee:21)] - 新增员工数据：{'username': 'toc-gz-108', 'mobile': '17010000018', 'workNumber': '1300008'} 新增员工请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer fedf001b-4238-44b1-afb4-56421ad0313b'}
+2020-02-12 19:38:24,217 INFO [test02_employee.py(test01_post:28)] - 新增员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227557558419804160'}}
+2020-02-12 19:38:24,217 INFO [test02_employee.py(test01_post:32)] - 员工user_id值为：1227557558419804160
+2020-02-12 19:38:24,217 INFO [api_employee.py(api_put_employee:28)] - 修改后的数据：{'username': 'ton-gz-105'}
+2020-02-12 19:38:24,357 INFO [test02_employee.py(test02_put:40)] - 更新员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227557558419804160'}}
+2020-02-12 19:38:24,487 INFO [test02_employee.py(test03_get:48)] - 查询员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227557558419804160', 'mobile': '17010000018', 'username': 'ton-gz-105', 'password': 'cf5e19282c0ed256ff8428ab349bf258', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': None, 'timeOfEntry': None, 'formOfEmployment': None, 'workNumber': '1300008', 'formOfManagement': None, 'workingCity': None, 'correctionTime': None, 'inServiceStatus': None, 'departmentName': None, 'roleIds': [], 'staffPhoto': None}}
+2020-02-12 19:38:24,617 INFO [test02_employee.py(test04_delete:56)] - 删除员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-02-12 19:38:40,397 INFO [api_employee.py(api_post_employee:21)] - 新增员工数据：{'username': 'toc-gz-108', 'mobile': '17010000018', 'workNumber': '1300008'} 新增员工请求信息头：{'Content-Type': 'application/json'}
+2020-02-12 19:39:01,931 INFO [api_employee.py(api_put_employee:28)] - 修改后的数据：{'username': 'ton-gz-105'}
+2020-02-12 19:44:17,585 INFO [api_login.py(__init__:15)] - 正在初始化登录url：
+2020-02-12 19:44:17,585 INFO [api_login.py(api_login:21)] - 正在初始化数据：{'mobile': '13800000002', 'password': '123456'} 请求头信息：{'Content-Type': 'application/json'}
+2020-02-12 19:44:17,726 INFO [test01_login.py(test_login:25)] - 登录结果是：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '1207fcde-2742-4caf-bcb7-8ace6bad0836'}
+2020-02-12 19:44:17,726 INFO [api_employee.py(api_post_employee:21)] - 新增员工数据：{'username': 'toc-gz-108', 'mobile': '17010000018', 'workNumber': '1300008'} 新增员工请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 1207fcde-2742-4caf-bcb7-8ace6bad0836'}
+2020-02-12 19:44:17,866 INFO [test02_employee.py(test01_post:28)] - 新增员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227559041731219456'}}
+2020-02-12 19:44:17,866 INFO [test02_employee.py(test01_post:32)] - 员工user_id值为：1227559041731219456
+2020-02-12 19:44:17,866 INFO [api_employee.py(api_put_employee:28)] - 修改后的数据：{'username': 'ton-gz-105'}
+2020-02-12 19:44:18,006 INFO [test02_employee.py(test02_put:40)] - 更新员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227559041731219456'}}
+2020-02-12 19:44:18,136 INFO [test02_employee.py(test03_get:48)] - 查询员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227559041731219456', 'mobile': '17010000018', 'username': 'ton-gz-105', 'password': 'cf5e19282c0ed256ff8428ab349bf258', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': None, 'timeOfEntry': None, 'formOfEmployment': None, 'workNumber': '1300008', 'formOfManagement': None, 'workingCity': None, 'correctionTime': None, 'inServiceStatus': None, 'departmentName': None, 'roleIds': [], 'staffPhoto': None}}
+2020-02-12 19:44:18,266 INFO [test02_employee.py(test04_delete:56)] - 删除员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
